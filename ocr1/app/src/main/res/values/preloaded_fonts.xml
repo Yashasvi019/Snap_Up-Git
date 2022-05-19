@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/aclonica</item>
+        <item>@font/acme</item>
+        <item>@font/actor</item>
+        <item>@font/adamina</item>
+        <item>@font/akronim</item>
+        <item>@font/alfa_slab_one</item>
+        <item>@font/amaranth_italic</item>
+        <item>@font/amiko</item>
+        <item>@font/andika</item>
+        <item>@font/arbutus</item>
+        <item>@font/autour_one</item>
+        <item>@font/beth_ellen</item>
+        <item>@font/boogaloo</item>
+        <item>@font/bowlby_one</item>
+        <item>@font/calistoga</item>
+        <item>@font/charmonman_bold</item>
+        <item>@font/cormorant_upright_semibold</item>
+        <item>@font/diplomata</item>
+        <item>@font/goblin_one</item>
+    </array>
+</resources>

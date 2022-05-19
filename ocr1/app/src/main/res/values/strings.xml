@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">SnapUp</string>
+    <string name="enter_your_email_id">Enter Your Email Id</string>
+    <string name="login_via_phone_number">Login via Phone Number</string>
+    <string name="wanna_register_click_here">Want to Register!? Click Here!!</string>
+    <string name="forget_password_click_here">Forget Password? Click Here!!</string>
+    <string name="login">Login</string>
+    <string name="login_here_please">Login Here Please!!</string>
+    <string name="otp_verification">OTP Verification!!</string>
+    <string name="register_here_please">Register Here Please!!</string>
+    <string name="enter_your_first_name">Enter Your First Name</string>
+    <string name="enter_your_last_name">Enter Your Last Name</string>
+    <string name="cc">CC</string>
+    <string name="_91">+91</string>
+    <string name="enter_your_phone_number">Enter Your Phone Number</string>
+    <string name="enter_your_age">Enter Your Age</string>
+    <string name="select_your_gender">Select your Gender?</string>
+    <string name="female">Female</string>
+    <string name="male">Male</string>
+    <string name="enter_your_password">Enter Your Password</string>
+    <string name="enter_your_confirm_password">Enter Your Confirm Password</string>
+    <string name="register">Register</string>
+    <string name="wanna_login_click_here">Wanna Login!? Click Here!!</string>
+    <string name="resend_otp">Resend OTP</string>
+    <string name="verify_number">Verify Number</string>
+    <string name="log_out">Log out</string>
+    <string name="login_via_email_id">Login via Email Id</string>
+    <string name="an_otp_has_been_sent_on_your_number">An OTP has been sent on your number:</string>
+    <string name="enter_your_otp_here">Enter Your OTP Here!!</string>
+    <string name="we_will_send_you_one_time_otp_on_this_entered_phone_number">We will send you one time OTP on this entered phone number.</string>
+    <string name="want_to_add_product_to_cart_nclick_on_scan_barcode_button">Want to add product to cart!! \nClick on <b>SCAN BARCODE</b> Button...</string>
+    <string name="want_to_see_your_cart_nclick_on_cart_button">Want to see your cart!! \nClick on <b>CART</b> Button...</string>
+    <string name="no_more_shopping">No more Shopping? \nClick on <b>BOOT UP</b> Button... \nThis will clear your whole cart!!</string>
+    <string name="for_shopping_and_nchoosing_b_snapup_b">For Shopping \nand \nChoosing <b>SNAPUP</b>.</string>
+    <string name="click_on_send_link_to_send_password_reset_link_to_your_registered_e_mail_id">Click on <b>SEND LINK</b> to send password reset link to your registered e-mail id.</string>
+    <string name="go_back_to_login_e_mail_screen_click_back_to_login_button">Go Back to Login E-mail Screen. \nClick <b>Back to Login</b> Button.</string>
+</resources>

@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_image2"
+    tools:context=".LoginPhone">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/background_image2"
+        android:padding="5dp"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="102dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/mainText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="130dp"
+                android:fontFamily="@font/autour_one"
+                android:gravity="center"
+                android:text="@string/login_here_please"
+                android:textColor="#031067"
+                android:textSize="26sp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.59"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/otpSentText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="40dp"
+                android:text="@string/we_will_send_you_one_time_otp_on_this_entered_phone_number"
+                android:fontFamily="@font/boogaloo"
+                android:gravity="center"
+                android:padding="2dp"
+                android:textColor="#0724E8"
+                android:textSize="23sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.59"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="@id/mainText" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="30dp"
+                    android:background="@drawable/backgroundbox"
+                    android:gravity="center">
+
+                    <EditText
+                        android:id="@+id/loginCountryCode"
+                        android:layout_width="70dp"
+                        android:layout_height="50dp"
+                        android:layout_marginEnd="10dp"
+                        android:ems="10"
+                        android:gravity="center"
+                        android:hint="@string/cc"
+                        android:text="@string/_91"
+                        android:inputType="phone"
+                        android:maxLength="3"
+                        android:padding="2dp"
+                        android:textColor="#040303"
+                        android:textColorHint="#F3EEEE"
+                        android:textSize="20sp"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.62"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/otpSentText"/>
+
+                    <EditText
+                        android:id="@+id/loginPhoneNumber"
+                        android:layout_width="250dp"
+                        android:layout_height="50dp"
+                        android:ems="10"
+                        android:gravity="center"
+                        android:hint="@string/enter_your_phone_number"
+                        android:inputType="phone"
+                        android:maxLength="10"
+                        android:padding="2dp"
+                        android:textColor="#040303"
+                        android:textColorHint="#F3EEEE"
+                        android:textSize="20sp"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.62"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/loginCountryCode"/>
+
+                </LinearLayout>
+
+            <Button
+                android:id="@+id/loginVerify"
+                android:layout_width="170dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="40dp"
+                android:gravity="center"
+                android:padding="5dp"
+                android:text="@string/login"
+                android:textColor="#FFFFFF"
+                android:textSize="15sp"
+                app:backgroundTint="#1976d2"
+                android:background="@drawable/backgroundbox"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.498"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/loginPhoneNumber" />
+
+            <Button
+                android:id="@+id/loginEmailText"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="@string/login_via_email_id"
+                android:textColor="#FFFFFF"
+                android:textSize="15sp"
+                app:backgroundTint="@android:color/transparent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.498"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/loginVerify" />
+
+            <ProgressBar
+                android:id="@+id/progressBar"
+                style="?android:attr/progressBarStyle"
+                android:layout_width="150dp"
+                android:layout_height="100dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:indeterminateDrawable="@drawable/gif_loader_img1"
+                android:visibility="invisible"
+                app:layout_constraintTop_toBottomOf="@+id/loginEmailText"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
